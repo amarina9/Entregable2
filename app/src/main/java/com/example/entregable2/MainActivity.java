@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         setContentView(R.layout.activity_main);
         RadioGroup r = (RadioGroup)findViewById(R.id.radioGroup);
         r.setOnCheckedChangeListener(this);
+
     }
 
     public void onCheckedChanged(RadioGroup r, int a){
